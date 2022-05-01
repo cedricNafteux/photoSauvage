@@ -1,0 +1,45 @@
+header{
+    background-image: url("../img/head50.jpg");
+}
+.text-center{
+    font-weight: 600;
+    color: darkblue;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+header h5{
+    font-weight: 600;
+    color: darkblue;
+    vertical-align: auto;
+}
+
+footer{
+    height: 50px;
+    background-color: green;
+    color: aliceblue;
+    text-align: center;
+}
+footer a{
+    color: aliceblue;
+}
+
+@media screen and (max-width: 768px)
+{
+    #map{
+        width: 450px;
+        height:450px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px)
+{
+    #map{
+        width: 750px;
+        height:750px;
+    }
+}
+@media screen and (min-width: 1200px)
+{
+    #map{
+        width: 1000px;
+        height:1000px;
+    }
+}

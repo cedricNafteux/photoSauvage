@@ -1,0 +1,20 @@
+{
+    "name": "dwwwm/critiquephoto",
+    "description": "projet de critique d'images",
+    "type": "project",
+    "authors": [
+        {
+            "name": "cedric nafteux",
+            "email": "dwwm@afpa.fr"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^8.0",
+        "dompdf/dompdf": "^1.1"
+    },
+    "autoload":{
+    	"psr-4": {
+    		"App\\": "App/"
+    	}
+    }
+}
